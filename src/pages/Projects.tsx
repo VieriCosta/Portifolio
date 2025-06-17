@@ -1,22 +1,22 @@
 
 import React from 'react';
 import { LanguageProvider } from '../contexts/LanguageContext';
-import Hero from '../components/Hero';
 import ThemeToggle from '../components/ThemeToggle';
 import LanguageToggle from '../components/LanguageToggle';
+import ProjectsList from '../components/ProjectsList';
 import Navigation from '../components/Navigation';
 
-const Index = () => {
+const Projects = () => {
   return (
     <LanguageProvider>
-      <div className="relative">
+      <div className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 dark:from-gray-900 dark:via-blue-900 dark:to-purple-900">
         <ThemeToggle />
         <LanguageToggle />
         <Navigation />
-        <Hero />
+        <ProjectsList />
       </div>
     </LanguageProvider>
   );
 };
 
-export default Index;
+export default Projects;
