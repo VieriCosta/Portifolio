@@ -1,3 +1,4 @@
+
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 type Language = 'pt' | 'en';
@@ -33,6 +34,10 @@ const translations: Translations = {
   home: {
     pt: "Início",
     en: "Home"
+  },
+  about: {
+    pt: "Sobre mim",
+    en: "About me"
   },
   projectsTitle: {
     pt: "Meus Projetos",
@@ -113,6 +118,50 @@ const translations: Translations = {
   sendButton: {
     pt: "Enviar Mensagem",
     en: "Send Message"
+  },
+  aboutTitle: {
+    pt: "Sobre Mim",
+    en: "About Me"
+  },
+  aboutDescription: {
+    pt: "Sou um desenvolvedor apaixonado por tecnologia e inovação. Com anos de experiência criando soluções digitais que fazem a diferença, transformo ideias complexas em interfaces simples e funcionais.",
+    en: "I'm a developer passionate about technology and innovation. With years of experience creating digital solutions that make a difference, I transform complex ideas into simple and functional interfaces."
+  },
+  projectsCompleted: {
+    pt: "Projetos Concluídos",
+    en: "Projects Completed"
+  },
+  happyClients: {
+    pt: "Clientes Satisfeitos",
+    en: "Happy Clients"
+  },
+  yearsExperience: {
+    pt: "Anos de Experiência",
+    en: "Years Experience"
+  },
+  linesOfCode: {
+    pt: "Linhas de Código",
+    en: "Lines of Code"
+  },
+  skillsTitle: {
+    pt: "Minhas Habilidades",
+    en: "My Skills"
+  },
+  myStoryTitle: {
+    pt: "Minha História",
+    en: "My Story"
+  },
+  storyParagraph1: {
+    pt: "Minha jornada na programação começou há mais de 5 anos, quando descobri a magia de transformar linhas de código em soluções reais. Desde então, tenho me dedicado a aprender constantemente e a aplicar as melhores práticas do mercado.",
+    en: "My programming journey began over 5 years ago, when I discovered the magic of transforming lines of code into real solutions. Since then, I have been constantly learning and applying the best practices in the market."
+  },
+  storyParagraph2: {
+    pt: "Especializo-me em desenvolvimento full-stack, com foco especial em tecnologias modernas como React, Node.js e bancos de dados relacionais. Acredito que a tecnologia deve ser acessível e que boas interfaces fazem toda a diferença na experiência do usuário.",
+    en: "I specialize in full-stack development, with a special focus on modern technologies like React, Node.js and relational databases. I believe that technology should be accessible and that good interfaces make all the difference in user experience."
+  },
+  storyParagraph3: {
+    pt: "Quando não estou programando, gosto de estudar novas tecnologias, contribuir para projetos open source e compartilhar conhecimento com a comunidade de desenvolvedores. Estou sempre em busca de novos desafios que me permitam crescer profissionalmente.",
+    en: "When I'm not programming, I like to study new technologies, contribute to open source projects and share knowledge with the developer community. I'm always looking for new challenges that allow me to grow professionally."
   }
 };
 

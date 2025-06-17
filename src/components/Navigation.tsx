@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Home, FolderOpen, Contact } from 'lucide-react';
+import { Home, FolderOpen, Contact, User } from 'lucide-react';
 
 const Navigation = () => {
   const { t } = useLanguage();
@@ -10,6 +10,7 @@ const Navigation = () => {
 
   const navItems = [
     { path: '/', icon: Home, key: 'home' },
+    { path: '/about', icon: User, key: 'about' },
     { path: '/projects', icon: FolderOpen, key: 'projects' },
     { path: '/contact', icon: Contact, key: 'contact' }
   ];
