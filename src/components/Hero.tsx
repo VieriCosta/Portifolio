@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Mail, Github, Linkedin, Download } from 'lucide-react';
 
@@ -55,14 +56,20 @@ const Hero = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8 animate-fade-in delay-1000">
-            <button className="group px-8 py-4 bg-white text-purple-600 font-semibold rounded-full hover:bg-blue-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center gap-2">
+            <Link 
+              to="/contact"
+              className="group px-8 py-4 bg-white text-purple-600 font-semibold rounded-full hover:bg-blue-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center gap-2"
+            >
               <Mail size={20} className="group-hover:rotate-12 transition-transform duration-300" />
               {t('contact')}
-            </button>
-            <button className="group px-8 py-4 bg-transparent border-2 border-white/30 text-white font-semibold rounded-full hover:bg-white/10 hover:border-white/50 transition-all duration-300 hover:scale-105 flex items-center gap-2">
+            </Link>
+            <Link 
+              to="/projects"
+              className="group px-8 py-4 bg-transparent border-2 border-white/30 text-white font-semibold rounded-full hover:bg-white/10 hover:border-white/50 transition-all duration-300 hover:scale-105 flex items-center gap-2"
+            >
               <Download size={20} className="group-hover:translate-y-1 transition-transform duration-300" />
               {t('projects')}
-            </button>
+            </Link>
           </div>
 
           {/* Social Links */}
