@@ -33,17 +33,17 @@ const ContactForm = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'joao.silva@email.com'
+      value: 'viericostayt@gmail.com'
     },
     {
       icon: Phone,
       label: 'Telefone',
-      value: '+55 (11) 99999-9999'
+      value: '+55 (83) 99650-8769'
     },
     {
       icon: MapPin,
       label: 'Localização',
-      value: 'São Paulo, SP - Brasil'
+      value: 'Pocinhos, PB - Brasil'
     }
   ];
 

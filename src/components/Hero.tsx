@@ -41,7 +41,7 @@ const Hero = () => {
             </p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white animate-fade-in delay-300">
               <span className="bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent">
-                João Silva
+                Vieri Costa
               </span>
             </h1>
           </div>
@@ -75,9 +75,9 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-6 mt-8 animate-fade-in delay-1200">
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "#", label: "Email" }
+              { icon: Github, href: "https://github.com/VieriCosta/", label: "GitHub" },
+              { icon: Linkedin, href: "https://linkedin.com/in/vieri-costa-de-oliveira/", label: "LinkedIn" },
+              { icon: Mail, href: "viericostayt@gmail.com", label: "Email" }
             ].map(({ icon: Icon, href, label }, index) => (
               <a
                 key={label}
